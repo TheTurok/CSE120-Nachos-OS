@@ -1,0 +1,202 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	matmult.c	/^int A[Dim][Dim];$/;"	v
+A	sort.c	17;"	d	file:
+AR	Makefile	/^AR = $(GCCDIR)ar$/;"	m
+AS	Makefile	/^AS = $(GCCDIR)as$/;"	m
+ASFLAGS	Makefile	/^ASFLAGS = -mips1$/;"	m
+B	matmult.c	/^int B[Dim][Dim];$/;"	v
+BUFFERSIZE	sh.c	4;"	d	file:
+BUFSIZE	cat.c	5;"	d	file:
+BUFSIZE	cp.c	5;"	d	file:
+BUFSIZE	mv.c	5;"	d	file:
+C	matmult.c	/^int C[Dim][Dim];$/;"	v
+CC	Makefile	/^CC = $(GCCDIR)gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -O2 -B$(GCCDIR) -G 0 -Wa,-mips1 -nostdlib -ffreestanding$/;"	m
+CPP	Makefile	/^CPP = $(GCCDIR)cpp$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS =$/;"	m
+Dim	matmult.c	9;"	d	file:
+FILE	stdio.h	/^typedef int		FILE;$/;"	t
+GCCDIR	Makefile	/^GCCDIR = $(ARCHDIR)\/mips-$/;"	m
+LD	Makefile	/^LD = $(GCCDIR)ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -s -T script -N -warn-common -warn-constructors -warn-multiple-gp$/;"	m
+LIB	Makefile	/^LIB = assert atoi printf readline stdio strncmp strcat strcmp strcpy strlen memcpy memset$/;"	m
+MAXARGS	sh.c	7;"	d	file:
+MAXARGSIZE	sh.c	6;"	d	file:
+NLIB	Makefile	/^NLIB = libnachos.a$/;"	m
+RANLIB	Makefile	/^RANLIB = $(GCCDIR)ranlib$/;"	m
+SORTSHIFT	sort.c	13;"	d	file:
+SORTSIZE	sort.c	12;"	d	file:
+START_S	start.s	/^#define START_S$/;"	d
+STDIO_H	stdio.h	8;"	d
+STDLIB_C	Makefile	/^STDLIB_C = stdio.c stdlib.c$/;"	m
+STDLIB_H	Makefile	/^STDLIB_H = stdio.h stdlib.h ag.h$/;"	m
+STDLIB_H	stdlib.h	8;"	d
+STDLIB_O	Makefile	/^STDLIB_O = start.o stdio.o stdlib.o$/;"	m
+SYSCALLSTUB	start.s	/^#define SYSCALLSTUB(name, number) \\$/;"	d
+SYSCALL_H	syscall.h	10;"	d
+TARGETS	Makefile	/^TARGETS = halt sh matmult sort echo cat cp mv rm write1 #chat chatserver$/;"	m
+_ANSI_STDARG_H_	stdarg.h	10;"	d
+_BSD_VA_LIST	stdarg.h	148;"	d
+_STDARG_H	stdarg.h	9;"	d
+_VA_LIST	stdarg.h	144;"	d
+_VA_LIST	stdarg.h	160;"	d
+_VA_LIST	stdarg.h	189;"	d
+_VA_LIST_	stdarg.h	157;"	d
+_VA_LIST_	stdarg.h	186;"	d
+_VA_LIST_DEFINED	stdarg.h	192;"	d
+_VA_LIST_T_H	stdarg.h	195;"	d
+_VA_MIPS_H_ENUM	va-mips.h	39;"	d
+__GNUC_VA_LIST	stdarg.h	66;"	d
+__GNUC_VA_LIST	va-mips.h	15;"	d
+__VA_LIST	stdarg.h	165;"	d
+__array_type_class	va-mips.h	/^  __array_type_class,$/;"	e	enum:__anon2
+__assert	assert.c	/^void __assert(char* file, int line) {$/;"	f
+__boolean_type_class	va-mips.h	/^  __boolean_type_class,$/;"	e	enum:__anon2
+__char_type_class	va-mips.h	/^  __char_type_class,$/;"	e	enum:__anon2
+__complex_type_class	va-mips.h	/^  __complex_type_class,$/;"	e	enum:__anon2
+__enumeral_type_class	va-mips.h	/^  __enumeral_type_class,$/;"	e	enum:__anon2
+__file_type_class	va-mips.h	/^  __file_type_class,$/;"	e	enum:__anon2
+__fp_left	va-mips.h	/^  int __fp_left;$/;"	m	struct:__anon1
+__fp_regs	va-mips.h	/^  char *__fp_regs;$/;"	m	struct:__anon1
+__function_type_class	va-mips.h	/^  __function_type_class,$/;"	e	enum:__anon2
+__gnuc_va_list	stdarg.h	/^typedef char *__gnuc_va_list;$/;"	t
+__gnuc_va_list	stdarg.h	/^typedef void *__gnuc_va_list;$/;"	t
+__gnuc_va_list	va-mips.h	/^typedef char * __gnuc_va_list;$/;"	t
+__gnuc_va_list	va-mips.h	/^} __gnuc_va_list;$/;"	t	typeref:struct:__anon1
+__gp_regs	va-mips.h	/^  char *__gp_regs;$/;"	m	struct:__anon1
+__integer_type_class	va-mips.h	/^  __integer_type_class,$/;"	e	enum:__anon2
+__lang_type_class	va-mips.h	/^  __lang_type_class$/;"	e	enum:__anon2
+__main	start.s	/^__main:	$/;"	l
+__method_type_class	va-mips.h	/^  __method_type_class,$/;"	e	enum:__anon2
+__need___va_list	stdarg.h	12;"	d
+__no_type_class	va-mips.h	/^  __no_type_class = -1,$/;"	e	enum:__anon2
+__offset_type_class	va-mips.h	/^  __offset_type_class,$/;"	e	enum:__anon2
+__pointer_type_class	va-mips.h	/^  __pointer_type_class,$/;"	e	enum:__anon2
+__real_type_class	va-mips.h	/^  __real_type_class,$/;"	e	enum:__anon2
+__record_type_class	va-mips.h	/^  __record_type_class,$/;"	e	enum:__anon2
+__reference_type_class	va-mips.h	/^  __reference_type_class,$/;"	e	enum:__anon2
+__set_type_class	va-mips.h	/^  __set_type_class,$/;"	e	enum:__anon2
+__start	start.s	/^__start:$/;"	l
+__string_type_class	va-mips.h	/^  __string_type_class,$/;"	e	enum:__anon2
+__union_type_class	va-mips.h	/^  __union_type_class,$/;"	e	enum:__anon2
+__va_copy	stdarg.h	114;"	d
+__va_copy	va-mips.h	274;"	d
+__va_ellipsis	va-mips.h	68;"	d
+__va_ellipsis	va-mips.h	70;"	d
+__va_next_addr	va-mips.h	176;"	d
+__va_next_addr	va-mips.h	182;"	d
+__va_next_addr	va-mips.h	197;"	d
+__va_next_addr	va-mips.h	200;"	d
+__va_reg_size	va-mips.h	82;"	d
+__va_reg_size	va-mips.h	84;"	d
+__va_rounded_size	stdarg.h	82;"	d
+__va_rounded_size	stdarg.h	85;"	d
+__va_rounded_size	va-mips.h	74;"	d
+__va_rounded_size	va-mips.h	77;"	d
+__void_type_class	va-mips.h	/^  __void_type_class,$/;"	e	enum:__anon2
+_vsprintf	printf.c	/^static int _vsprintf(char *s, char *format, va_list ap) {$/;"	f	file:
+array	sort.c	/^int array[SORTSIZE<<SORTSHIFT];$/;"	v
+assert	stdlib.h	22;"	d
+assertNotReached	stdlib.h	25;"	d
+atoi	atoi.c	/^int atoi(const char *s) {$/;"	f
+beep	stdio.h	31;"	d
+buf	cat.c	/^char buf[BUFSIZE];$/;"	v
+buf	cp.c	/^char buf[BUFSIZE];$/;"	v
+buf	mv.c	/^char buf[BUFSIZE];$/;"	v
+charprint	printf.c	/^static int charprint(char **s, char c) {$/;"	f	file:
+digittoascii	printf.c	/^static char digittoascii(unsigned n, int uppercase) {$/;"	f	file:
+divRoundDown	stdlib.h	19;"	d
+divRoundUp	stdlib.h	20;"	d
+false	stdlib.h	14;"	d
+fdStandardInput	syscall.h	37;"	d
+fdStandardOutput	syscall.h	38;"	d
+fgetc	stdio.c	/^int fgetc(int fd) {$/;"	f
+fprintf	printf.c	/^void fprintf(int fd, char *format, ...) {$/;"	f
+fputc	stdio.c	/^void fputc(char c, int fd) {$/;"	f
+fputs	stdio.c	/^void fputs(const char *s, int fd) {$/;"	f
+getc	stdio.h	21;"	d
+getch	stdio.h	23;"	d
+getchar	stdio.h	22;"	d
+integerprint	printf.c	/^static int integerprint(char **s, int n, unsigned base, int min, int zpad, int upper) {$/;"	f	file:
+main	cat.c	/^int main(int argc, char** argv)$/;"	f
+main	cp.c	/^int main(int argc, char** argv)$/;"	f
+main	echo.c	/^int main(int argc, char** argv)$/;"	f
+main	halt.c	/^main()$/;"	f
+main	matmult.c	/^main()$/;"	f
+main	mv.c	/^int main(int argc, char** argv)$/;"	f
+main	rm.c	/^int main(int argc, char** argv)$/;"	f
+main	sh.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	sort.c	/^main()$/;"	f
+main	write1.c	/^main (int argc, char *argv[])$/;"	f
+max	stdlib.h	17;"	d
+mcharprint	printf.c	/^static int mcharprint(char **s, char* chars, int length) {$/;"	f	file:
+memcpy	memcpy.c	/^void *memcpy(void *s1, const void *s2, unsigned n) {$/;"	f
+memset	memset.c	/^void *memset(void *s, int c, unsigned int n) {$/;"	f
+min	stdlib.h	16;"	d
+name	start.s	/^name:				; \\$/;"	l
+null	stdlib.h	12;"	d
+printf	printf.c	/^void printf(char *format, ...) {$/;"	f
+putc	stdio.h	29;"	d
+putchar	stdio.h	30;"	d
+puts	stdio.h	28;"	d
+readline	readline.c	/^void readline(char *s, int maxlength) {$/;"	f
+runline	sh.c	/^void runline(char* line) {$/;"	f
+sprintf	printf.c	/^void sprintf(char *s, char *format, ...) {$/;"	f
+stdin	stdio.h	14;"	d
+stdout	stdio.h	15;"	d
+strcat	strcat.c	/^char *strcat(char *s1, const char *s2) {$/;"	f
+strcmp	strcmp.c	/^int strcmp(const char* a, const char* b) {$/;"	f
+strcpy	strcpy.c	/^char *strcpy(char *dst, const char *src) {$/;"	f
+stringprint	printf.c	/^static int stringprint(char **s, char *string) {$/;"	f	file:
+strlen	strlen.c	/^unsigned strlen(const char *str) {$/;"	f
+strncmp	strncmp.c	/^int strncmp(const char* a, const char* b, int n)$/;"	f
+swap	sort.c	/^void swap(int* x, int* y)$/;"	f
+syscallAccept	syscall.h	27;"	d
+syscallClose	syscall.h	23;"	d
+syscallConnect	syscall.h	26;"	d
+syscallCreate	syscall.h	19;"	d
+syscallExec	syscall.h	17;"	d
+syscallExit	syscall.h	16;"	d
+syscallHalt	syscall.h	15;"	d
+syscallJoin	syscall.h	18;"	d
+syscallMmap	syscall.h	25;"	d
+syscallOpen	syscall.h	20;"	d
+syscallRead	syscall.h	21;"	d
+syscallUnlink	syscall.h	24;"	d
+syscallWrite	syscall.h	22;"	d
+tokenizeCommand	sh.c	/^static int tokenizeCommand(char* command, int maxTokens, char *tokens[], char* storage) {$/;"	f	file:
+true	stdlib.h	13;"	d
+va_alist	va-mips.h	124;"	d
+va_arg	stdarg.h	101;"	d
+va_arg	stdarg.h	106;"	d
+va_arg	va-mips.h	213;"	d
+va_arg	va-mips.h	224;"	d
+va_arg	va-mips.h	242;"	d
+va_arg	va-mips.h	246;"	d
+va_arg	va-mips.h	256;"	d
+va_arg	va-mips.h	264;"	d
+va_dcl	va-mips.h	127;"	d
+va_dcl	va-mips.h	129;"	d
+va_end	stdarg.h	92;"	d
+va_end	stdarg.h	94;"	d
+va_end	va-mips.h	170;"	d
+va_list	stdarg.h	/^typedef __gnuc_va_list va_list;$/;"	t
+va_start	stdarg.h	89;"	d
+va_start	va-mips.h	104;"	d
+va_start	va-mips.h	114;"	d
+va_start	va-mips.h	120;"	d
+va_start	va-mips.h	134;"	d
+va_start	va-mips.h	142;"	d
+va_start	va-mips.h	152;"	d
+va_start	va-mips.h	159;"	d
+va_start	va-mips.h	163;"	d
+va_start	va-mips.h	96;"	d
+vfprintf	printf.c	/^void vfprintf(int fd, char *format, va_list ap) {$/;"	f
+vfprintfbuf	printf.c	/^static char vfprintfbuf[256];$/;"	v	file:
+vprintf	printf.c	/^void vprintf(char *format, va_list ap) {$/;"	f
+vsprintf	printf.c	/^void vsprintf(char *s, char *format, va_list ap) {$/;"	f
